@@ -8,8 +8,10 @@
 public class InheritanceDemo6_cuation4 {
 public static void main(String[] args) {
 	Derived d = new Derived();
-//	System.out.println(d.name); // 구지 부모까지 가지말고 자기껄로 쓴다.= 상속되지않는다. 
-//	d.print();
+	System.out.println(d.name); // 구지 부모까지 가지말고 자기껄로 쓴다.= 상속되지않는다. 
+	System.out.println();
+	d.print();
+	System.out.println();
 	// 구지 부모의 이름 가져오려면  자식 클래스에서 super 쓴다. 
 	d.display();
 }
